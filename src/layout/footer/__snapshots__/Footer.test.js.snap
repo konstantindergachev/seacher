@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer to get the snapshot of Footer component 1`] = `
+<footer
+  className="footer"
+>
+  <span
+    className="footer__left"
+  >
+    © 2020
+  </span>
+  <span
+    className="footer__right"
+  >
+    Konstantin Dergachev
+  </span>
+</footer>
+`;

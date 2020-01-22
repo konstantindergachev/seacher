@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component get the snapshot of App component 1`] = `
+<div
+  className="container"
+>
+  <h1
+    className="app__title"
+  >
+    Monsters Rolodex
+  </h1>
+  <input
+    className="search"
+    onChange={[Function]}
+    placeholder="search name"
+    type="search"
+  />
+  <div
+    className="cards"
+  >
+    <div
+      className="card__container"
+    >
+      <img
+        alt="John Snow"
+        className="card__img"
+      />
+      <div>
+        <p
+          className="card__name"
+        >
+          John Snow
+        </p>
+        <p
+          className="card__email"
+        >
+          john@john.com
+        </p>
+      </div>
+    </div>
+    <div
+      className="card__container"
+    >
+      <img
+        alt="Tom Magnum"
+        className="card__img"
+      />
+      <div>
+        <p
+          className="card__name"
+        >
+          Tom Magnum
+        </p>
+        <p
+          className="card__email"
+        >
+          tom@tom.com
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="footer"
+  >
+    <span
+      className="footer__left"
+    >
+      © 2020
+    </span>
+    <span
+      className="footer__right"
+    >
+      Konstantin Dergachev
+    </span>
+  </footer>
+</div>
+`;

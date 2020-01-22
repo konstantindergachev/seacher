@@ -1,0 +1,42 @@
+@import '../../scss/mixins.scss';
+
+.card {
+  &__container {
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    @include mobfirst(796) {
+      margin-bottom: 15px;
+    }
+    &:not(:nth-child(3n)) {
+      @include mobfirst(796) {
+        margin-right: 15px;
+      }
+    }
+  }
+  &__img {
+    margin-bottom: 20px;
+  }
+  &__name,
+  &__email {
+    text-align: center;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardList component CardList with Card to get the snapshot of CardList component 1`] = `
+<div
+  className="cards"
+>
+  <div
+    className="card__container"
+  >
+    <img
+      alt="John Snow"
+      className="card__img"
+    />
+    <div>
+      <p
+        className="card__name"
+      >
+        John Snow
+      </p>
+      <p
+        className="card__email"
+      >
+        john@john.com
+      </p>
+    </div>
+  </div>
+  <div
+    className="card__container"
+  >
+    <img
+      alt="Tom Magnum"
+      className="card__img"
+    />
+    <div>
+      <p
+        className="card__name"
+      >
+        Tom Magnum
+      </p>
+      <p
+        className="card__email"
+      >
+        tom@tom.com
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CardList component CardList with Loader to get the snapshot of CardList component 1`] = `
+<div
+  className="cards"
+>
+  <span>
+    Loading...
+  </span>
+</div>
+`;

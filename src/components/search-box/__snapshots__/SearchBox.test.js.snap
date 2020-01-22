@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox to get the snapshot of SearchBox component 1`] = `
+<input
+  className="search"
+  type="search"
+/>
+`;

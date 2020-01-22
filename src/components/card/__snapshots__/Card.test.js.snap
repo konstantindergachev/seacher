@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card to get the snapshot of Card component 1`] = `
+<div
+  className="card__container"
+>
+  <img
+    className="card__img"
+  />
+  <div>
+    <p
+      className="card__name"
+    />
+    <p
+      className="card__email"
+    />
+  </div>
+</div>
+`;
